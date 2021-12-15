@@ -1,1 +1,5 @@
-
+create table login(username varchar(20) primary key,password varchar(20));
+create table teacher(teacher_id varchar(20) primary key,firstname varchar(20),lastname varchar(20));
+create table users (house_no varchar(30) ,name varchar(30),gender varchar(8),dob varchar(20),age varchar(10),aadhar varchar(12) primary key,maritalstatus varchar(30),street varchar(30),city varchar(30),
+				  district varchar(30),state varchar(30),country varchar(30),pincode varchar);
+create table assign_locations(teacher_id varchar(30) primary key,street varchar(30),city varchar(30),district varchar(30),state varchar(30),country varchar(30),pincode int); 
