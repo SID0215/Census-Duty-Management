@@ -92,7 +92,7 @@ class admstatus extends JFrame
 			      
 			      add(pane);
 			      setSize(1600, 400);
-			      setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+			      setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 			      setVisible(true);}
 					catch (Exception ex)
 				    {
