@@ -52,7 +52,7 @@ class login extends JFrame {
         JCheckBox b = new JCheckBox("Show Password");
         b.setBounds(140, 170, 200, 30);
         b.setFont(new Font(Font.SERIF, Font.BOLD, 18));
-        value.setEchoChar('•');
+        value.setEchoChar('â€¢');
         
         JLabel l1=new JLabel("CENSUS DUTY MANAGEMENT SYSTEM");
 		l1.setBounds(190,20,1200,100);
@@ -85,7 +85,7 @@ class login extends JFrame {
                 if(b.isSelected()) {
                     value.setEchoChar((char)0);
                 }else {
-                    value.setEchoChar('•');
+                    value.setEchoChar('â€¢');
                 }
 
             }
@@ -122,7 +122,7 @@ class login extends JFrame {
         	        			new Teacher().setVisible(true);
         	        		}
         	        		else if (username.startsWith("a")) {
-        	        			new PROGRESSBAR().setVisible(true);
+        	        			new Admin().setVisible(true);
         	        			
         	        		}
         	        		else if (username.startsWith("5")){
